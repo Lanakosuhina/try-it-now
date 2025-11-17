@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <title>ДЕЛОСОФТ</title>
+</head>
+
+<body>
+    <div class="background ">
+        <header class="header wrapper">
+            <div class="header__name">
+                <p class="header__title">ДЕЛОСОФТ.</p>
+            </div>
+            <nav class="header__nav">
+                <a class="header__nav-item" href="index.html" data-key="nav_home">Главная</a>
+                <a class="header__nav-item" href="services.html" data-key="nav_services">Услуги</a>
+                <a class="header__nav-item" href="about.html" data-key="nav_about">О компании</a>
+                <a class="header__nav-item header__button" href="index.html#contacts"
+                    data-key="nav_contacts">Контакты</a>
+            </nav>
+            <button class="burger">
+                <img class="burger__icon burger__open" src="images/burger.svg" alt="">
+                <img class="burger__icon burger__close" src="images/burger-close.svg" alt="">
+            </button>
+    </div>
+    </header>
+    <main>
+
+        <section class="about wrapper">
+            <div class="about__content" data-aos="fade-up" data-aos-delay="100">
+                <h2 class="about__title">Наши услуги</h2>
+                <p class="about__lead">
+                    Делософт предлагает широкий спектр услуг по разработки цифровых решений для бизнеса. Мы поможем с
+                    превращением вашей идеи в готовый продукт, а также укрепим вашу команду высококвалифицированными 
+                    специалистами уровня middle / senior / lead senior.
+                </p>
+            </div>
+        </section>
+        <div class="wrapper">
+
+            <section class="service ">
+                <div class="service-inner" id="marketing">
+                    <div class="big-number">01</div>
+                    <div class="service-content">
+                        <h2 class="service-title">Рекламные кампании и партнёрский маркетинг</h2>
+                        <p class="service-you-get">
+                            Привлечение целевого трафика, увеличение конверсий и достижение KPI.
+                        </p>
+                        <ul class="service-list">
+                            <li>Настройка и верификация рекламных кабинетов (Facebook, Google, Xiaomi)</li>
+                            <li>Интеграция с трекинговыми системами (AppsFlyer, Adjust, Keitaro)</li>
+                            <li>Установка пикселей и аналитики</li>
+                            <li>Запуск кампаний: цели, таргетинг, креативы</li>
+                            <li>Мониторинг, A/B-тесты, Automated Bidding, оптимизация в реальном времени</li>
+                            <li>Подключение к CPA-сетям и контроль качества трафика</li>
+                            <li>Глубокая аналитика и автоматизированные дашборды</li>
+                            <li>Регулярные отчёты с инсайтами и рекомендациями</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="service">
+                <div class="service-inner" id="SEO">
+                    <div class="big-number">02</div>
+                    <div class="service-content">
+                        <h2 class="service-title">SEO-продвижение</h2>
+                        <p class="service-you-get">
+                            Повышение позиций в Google и Яндекс, рост органического трафика и доверия к бренду.
+                        </p>
+                        <ul class="service-list">
+                            <li>Полный аудит сайта (технический, контентный, юзабилити)</li>
+                            <li>Внутренняя оптимизация: индексация, robots.txt, sitemap, микроразметка, скорость</li>
+                            <li>Исправление ошибок: редиректы, дубли, перелинковка</li>
+                            <li>Создание посадочных страниц по семантическому ядру</li>
+                            <li>Внешний Linkbuilding: экспертные статьи, каталоги, блоги</li>
+                            <li>Локальное SEO: Google My Business, справочники</li>
+                            <li>Мобильная оптимизация (iOS, Android)</li>
+                            <li>Мониторинг позиций, трафика, поведенческих факторов</li>
+                            <li>Ежемесячные отчёты и корректировка стратегии</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="service">
+                <div class="service-inner">
+                    <div class="big-number">03</div>
+                    <div class="service-content">
+                        <h2 class="service-title">Интеграция с трекинговыми сервисами</h2>
+                        <p class="service-you-get">
+                            Полная аналитика, точный таргетинг и оптимизация маркетинговой стратегии.
+                        </p>
+                        <ul class="service-list">
+                            <li>Аудит продукта (веб, iOS, Android) и бизнес-модели</li>
+                            <li>Подбор инструментов: AppsFlyer, Adjust, Keitaro, Firebase</li>
+                            <li>Установка SDK/API и отслеживание событий</li>
+                            <li>Связь с рекламными платформами (UTM, идентификаторы)</li>
+                            <li>Настройка дашбордов и кастомных аудиторий</li>
+                            <li>Полное тестирование всех сценариев</li>
+                            <li>Генерация отчётов и интеграция с BI-системами</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="service">
+                <div class="service-inner" id="development">
+                    <div class="big-number">04</div>
+                    <div class="service-content">
+                        <h2 class="service-title">Разработка сайтов и интернет-магазинов</h2>
+                        <p class="service-you-get">Сайт, который реально продаёт с первого дня — целый отдел продаж.</p>
+                        <ul class="service-list">
+                            <li>Согласование ТЗ и выбор готовых решений</li>
+                            <li>Подбор домена и хостинга</li>
+                            <li>Frontend + backend + интеграции</li>
+                            <li>Наполнение контентом и товарами</li>
+                            <li>Перенос на домен, тестирование, обучение</li>
+                            <li>Прозрачные этапы и сроки</li>
+                            <li>Индивидуальный подход даже на типовых решениях</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="service">
+                <div class="service-inner">
+                    <div class="big-number">05</div>
+                    <div class="service-content">
+                        <h2 class="service-title">Контекстная реклама</h2>
+                        <p class="service-you-get">Рост прибыли от увеличения продаж. Реклама окупается и приносит
+                            доход.
+                        </p>
+                        <ul class="service-list">
+                            <li>Настройка Яндекс.Директ и Google Ads</li>
+                            <li>Все типы кампаний и форматов</li>
+                            <li>Семантическое ядро до 4000 ключей</li>
+                            <li>CTR до 20%, контроль CPC, CPA, ROMI</li>
+                            <li>Гарантия KPI по договору</li>
+                            <li>Ретаргетинг и сбор данных о поведении</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="service">
+                <div class="service-inner" id="SMM">
+                    <div class="big-number">06</div>
+                    <div class="service-content">
+                        <h2 class="service-title">SMM в соцсетях</h2>
+                        <p class="service-you-get">Рост лояльности, узнаваемости бренда и трафика с соцсетей.</p>
+                        <ul class="service-list">
+                            <li>Индивидуальная стратегия под ваши задачи</li>
+                            <li>Анализ конкурентов и выделение сильных сторон</li>
+                            <li>Контент-план, визуал, фото/видео съёмки</li>
+                            <li>Reels, конкурсы, розыгрыши, опросы</li>
+                            <li>Обратная связь с аудиторией</li>
+                            <li>Постоянная оптимизация стратегии</li>
+                            <li>Увеличение трафика на сайт</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <section class="projects-section wrapper">
+            <div class="projects-content" data-aos="fade-up" data-aos-delay="100">
+                <span class="section-label">Экспертиза</span>
+                <h2 class="projects-title">Проекты высокой сложности</h2>
+                <p class="projects-description">
+                    Наша компания специализируется на решении сложных задач. Обладая обширной экспертизой, за время
+                    работы мы помогли внедрить уникальные решения в бизнес клиентов.
+                </p>
+            </div>
+
+        </section>
+        <section class="tech-stack-section wrapper">
+            <div class="projects-content" data-aos="fade-up" data-aos-delay="100">
+                <span class="section-label">Технологический стек</span>
+                <h2 class="section-title">Инструменты, которые мы используем</h2>
+                <p class="projects-description">
+                    Современные решения для digital-маркетинга, аналитики и автоматизации бизнес-процессов
+                </p>
+            </div>
+
+            <div class="tech-scroll-wrapper" data-aos="fade-up" data-aos-delay="200">
+                <div class="tech-scroll-container">
+                    <div class="tech-scroll-group">
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                                alt="Vue.js">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                alt="React">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+                                alt="Angular">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                alt="Node.js">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                                alt="PHP">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                alt="Java">
+                        </div>
+                    </div>
+
+                    <div class="tech-scroll-group">
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                                alt="Vue.js">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                alt="React">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+                                alt="Angular">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                alt="Node.js">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                                alt="PHP">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                alt="Java">
+                        </div>
+                    </div>
+
+                    <div class="tech-scroll-group">
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                                alt="Vue.js">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                alt="React">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+                                alt="Angular">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                alt="Node.js">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                                alt="PHP">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                alt="Java">
+                        </div>
+                    </div>
+
+                    <div class="tech-scroll-group">
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                                alt="Vue.js">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                alt="React">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+                                alt="Angular">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                alt="Node.js">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                                alt="PHP">
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                alt="Java">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tools-grid">
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 3l-4 4-4-4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Рекламные платформы</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">Facebook Ads Manager</span>
+                        <span class="tool-tag">Google Ads</span>
+                        <span class="tool-tag">Xiaomi Ads</span>
+                    </div>
+                </div>
+
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="150">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <circle cx="6" cy="18" r="3"></circle>
+                            <circle cx="18" cy="18" r="3"></circle>
+                            <path d="M8.59 13.51l6.83 3.98M15.41 13.51l-6.82 3.98"></path>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Партнерские сети</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">Keitaro</span>
+                        <span class="tool-tag">Affise</span>
+                        <span class="tool-tag">HasOffers</span>
+                    </div>
+                </div>
+
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Аналитика и трекинг</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">AppsFlyer</span>
+                        <span class="tool-tag">Adjust</span>
+                        <span class="tool-tag">Google Analytics 4</span>
+                        <span class="tool-tag">Mixpanel</span>
+                        <span class="tool-tag">Hotjar</span>
+                        <span class="tool-tag">Яндекс.Метрика</span>
+                    </div>
+                </div>
+
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="250">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path
+                                d="M12 1v6m0 6v6m8.66-9.66l-5.196 3m-6.928 4l-5.196 3M3.34 8.34l5.196 3m6.928 4l5.196 3">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Автоматизация рекламных кампаний</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">AdEspresso</span>
+                        <span class="tool-tag">Revealbot</span>
+                    </div>
+                </div>
+
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                            <polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline>
+                            <polyline points="7.5 19.79 7.5 14.6 3 12"></polyline>
+                            <polyline points="21 12 16.5 14.6 16.5 19.79"></polyline>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Отчетность и визуализация данных</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">Google Data Studio</span>
+                        <span class="tool-tag">Tableau</span>
+                        <span class="tool-tag">Power BI</span>
+                    </div>
+                </div>
+
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="350">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Анализ и аудит SEO</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">Google Search Console</span>
+                        <span class="tool-tag">Yandex.Webmaster</span>
+                        <span class="tool-tag">SEMrush</span>
+                        <span class="tool-tag">Ahrefs</span>
+                        <span class="tool-tag">Screaming Frog SEO Spider</span>
+                    </div>
+                </div>
+
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Анализ ключевых слов</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">Google Keyword Planner</span>
+                        <span class="tool-tag">Ubersuggest</span>
+                        <span class="tool-tag">Yandex Wordstat</span>
+                    </div>
+                </div>
+
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="450">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Контент и техническая оптимизация</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">Copyscape</span>
+                        <span class="tool-tag">Yoast SEO</span>
+                        <span class="tool-tag">PageSpeed Insights</span>
+                        <span class="tool-tag">Moz Pro</span>
+                    </div>
+                </div>
+
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="500">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Отслеживание позиций</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">SERPWatcher</span>
+                        <span class="tool-tag">SE Ranking</span>
+                    </div>
+                </div>
+
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="550">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Работа с ссылочной массой</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">Majestic SEO</span>
+                        <span class="tool-tag">Monitor Backlinks</span>
+                    </div>
+                </div>
+
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="600">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <rect x="3" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="14" width="7" height="7"></rect>
+                            <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Интеграция и обмен данными</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">Zapier</span>
+                        <span class="tool-tag">Integromat</span>
+                    </div>
+                </div>
+
+                <div class="tool-category" data-aos="fade-up" data-aos-delay="650">
+                    <div class="category-icon">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">Автоматизация маркетинга</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">HubSpot</span>
+                        <span class="tool-tag">Salesforce</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer wrapper">
+        <div class="footer__container">
+            <div class="footer__left div1">
+                <h3 class="footer__logo">ДЕЛОСОФТ.</h3>
+                <div class="footer__socials">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+
+
+            <div class="footer__column div2">
+                <h4>Компания</h4>
+                <a href="about.html">О нас</a>
+                <a href="about.html#contacts">Контакты</a>
+                <a href="privacy.html">Политика <br> конфиденциальности</a>
+            </div>
+            <div class="footer__column div3">
+                <h4>Услуги</h4>
+                <a href="services.html#marketing">Рекламные кампании</a>
+                <a href="services.html#SEO">SEO-продвижение</a>
+                <a href="services.html#development">Разработка сайтов</a>
+                <a href="services.html#SMM">SMM в соцсетях</a>
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+            <div class="wrapper footer__bottom-content">
+                <p>©2025 ДЕЛОСОФТ. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function updateNumbers() {
+            document.querySelectorAll('.service').forEach(service => {
+                const number = service.querySelector('.big-number');
+                if (!number) return;
+
+                const rect = service.getBoundingClientRect();
+                const scrolled = -rect.top;
+                const blockHeight = rect.height;
+                const maxY = blockHeight * 0.55;
+
+                let y = 0;
+                if (scrolled > 0) {
+                    y = Math.min(scrolled, maxY);
+                }
+
+                number.style.transform = `translateY(${y}px)`;
+            });
+        }
+
+        window.addEventListener('scroll', () => {
+            requestAnimationFrame(updateNumbers);
+        });
+
+        window.addEventListener('load', updateNumbers);
+        window.addEventListener('resize', updateNumbers);
+
+        document.querySelectorAll('.big-number').forEach(n => {
+            n.style.opacity = '1.1';
+            n.style.transform = 'translateY(0px)';
+        });
+
+        updateNumbers();
+    </script>
+</body>
+
+</html>
