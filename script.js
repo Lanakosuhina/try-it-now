@@ -51,26 +51,4 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
-
-  ymaps.ready(function () {
-    const map = new ymaps.Map("map", {
-      center: [53.902735, 27.554676],
-      zoom: 16,
-      controls: ["zoomControl", "fullscreenControl"],
-    });
-
-    const placemark = new ymaps.Placemark(
-      [53.902735, 27.554676],
-      {
-        balloonContent:
-          "<strong>ООО «Делософт»</strong><br>г. Минск, ул. Немига, дом 5, пом. 61",
-      },
-      {
-        preset: "islands#yellowDotIcon",
-      }
-    );
-
-    map.geoObjects.add(placemark);
-    map.behaviors.disable("scrollZoom");
-  });
 });
