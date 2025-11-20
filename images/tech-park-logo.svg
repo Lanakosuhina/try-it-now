@@ -1,0 +1,18 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- HI letters in red -->
+  <g>
+    <!-- H -->
+    <rect x="10" y="15" width="8" height="70" fill="#E31E24"/>
+    <rect x="10" y="46" width="35" height="8" fill="#E31E24"/>
+    <rect x="37" y="15" width="8" height="70" fill="#E31E24"/>
+    
+    <!-- I -->
+    <rect x="55" y="15" width="8" height="70" fill="#E31E24"/>
+  </g>
+  
+  <!-- Text "Tech Park" in white -->
+  <text x="92" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="300" fill="#FFFFFF">Tech Park</text>
+  
+  <!-- Text "Belarus" in white -->
+  <text x="92" y="72" font-family="Arial, sans-serif" font-size="24" font-weight="300" fill="#FFFFFF">Belarus</text>
+</svg>

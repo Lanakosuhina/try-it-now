@@ -746,6 +746,16 @@ legend {
     color: var(--color-light-second);
     text-align: left;
   }
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border: 1px solid var(--color-accent);
+    border-radius: 50%;
+  }
 }
 .numbers {
   display: flex;
@@ -915,6 +925,77 @@ legend {
     transition: color 0.3s ease;
     text-decoration: underline;
   }
+}
+
+/* Stars/Diamonds */
+.star {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  transform: rotate(45deg);
+  opacity: 0.9;
+  animation: twinkle 3s infinite;
+}
+
+.star.small {
+  width: 12px;
+  height: 12px;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.9;
+    transform: rotate(45deg) scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: rotate(45deg) scale(0.8);
+  }
+}
+
+/* Star positions */
+.star-1 {
+  top: 10%;
+  left: 80%;
+  animation-delay: 0s;
+}
+
+.star-2 {
+  top: 7%;
+  left: 70%;
+  animation-delay: 0.5s;
+}
+
+.star-3 {
+  top: 1%;
+  left: 74%;
+  animation-delay: 1s;
+}
+
+.star-4 {
+  bottom: 100px;
+  right: 82%;
+  animation-delay: 0.3s;
+}
+
+.star-5 {
+  bottom: 75px;
+  right: 85%;
+  animation-delay: 0.8s;
+}
+
+.star-6 {
+  bottom: 100px;
+  right: 150px;
+  animation-delay: 0.2s;
+}
+
+.star-7 {
+  bottom: 80px;
+  right: 120px;
+  animation-delay: 1.2s;
 }
 .support {
   display: flex;
@@ -1194,6 +1275,53 @@ legend {
   }
 }
 
+.park {
+  position: relative;
+  padding: 80px 0;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+  }
+  img {
+    flex: 0 0 250px;
+    width: 250px;
+    height: auto;
+  }
+
+  p {
+    flex: 0 0 50%;
+    @include title-text;
+    font-size: var( --line-height-sub-title);
+    line-height: var(--line-height-main-text);
+   
+  }
+  h3 {
+    @include sub-title-text;
+     font-size: var( --line-height-sub-title);
+    line-height: var(--line-height-main-text);
+     span {
+      color: var(--color-accent);
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .park-section {
+    padding: 60px 40px;
+  }
+
+  .park-content h3 {
+    font-size: 24px;
+  }
+}
+
 .footer {
   padding: 80px 0 0;
 
@@ -1208,8 +1336,9 @@ legend {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     gap: var(--small-gap);
-    margin-bottom: var(--large-gap);
+    margin-bottom: var(--small-gap);
     margin-right: 100px;
   }
 
@@ -2255,6 +2384,7 @@ legend {
   .competencies-wrapper,
   .tech-stack-section,
   .privacy,
+  .park,
   .footer {
     padding-left: 30px;
     padding-right: 30px;
